@@ -1,0 +1,32 @@
+.about-outer{
+padding-left: 100px;
+margin-top: -80px;
+}
+.about-container{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.pre-heading-text{
+    text-align: right;
+    @include message-text();
+    width:60%;
+}
+.about-header{
+    @include header(54px);
+    color: #CB5699;;
+
+}
+.about-skewed-text{
+    font-family: $earwing;
+font-style: normal;
+font-weight: 400;
+font-size: 105.369px;
+line-height: 126px;
+}
+.about-question{
+    @include message-text();
+    font-size: 88px;
+    color: #CB5699;;
+}

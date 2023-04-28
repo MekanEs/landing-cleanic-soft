@@ -1,0 +1,25 @@
+@font-face {
+    font-family: Earwing Factory;
+    src: url(./base/earwig.ttf);
+}
+
+$big-font: 'Montserrat', sans-serif;
+$main-font: 'DM Sans', sans-serif;
+$earwing: 'Earwing Factory';
+
+@mixin header($size){
+    font-family: $big-font;
+    font-style: normal;
+    font-weight: 900;
+    color: #FFFFFF;
+    line-height: 110px;
+    font-size:$size;
+}
+@mixin message-text(){
+    font-family: $main-font;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 33px;
+    color: #232323;
+}

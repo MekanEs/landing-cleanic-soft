@@ -1,0 +1,156 @@
+@font-face {
+  font-family: Earwing Factory;
+  src: url(./base/earwig.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 1920px;
+  margin: 0 auto;
+}
+
+.header-container {
+  background: url("../../assets/photo/header-image.jpg");
+  width: 100%;
+  background-position-x: 37%;
+  background-position-y: bottom;
+  padding-top: 248px;
+  padding-bottom: 9px;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+}
+
+.headers {
+  width: fit-content;
+}
+
+.motto {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: fit-content;
+  padding-left: 32px;
+  letter-spacing: 7px;
+  max-height: 500px;
+  background: url("../../assets/icons/vector-text/&.svg") no-repeat center;
+  background-position-x: 388px;
+  row-gap: 227px;
+}
+
+.ochrony {
+  align-items: flex-start;
+  top: 0;
+  display: flex;
+  padding-left: 150px;
+  position: relative;
+}
+
+.hashtag {
+  align-items: flex-end;
+  width: 820px;
+}
+
+.circular {
+  justify-self: center;
+  width: fit-content;
+  margin-left: 684px;
+  padding-top: 86px;
+  padding-bottom: 48px;
+}
+
+.link-container {
+  display: flex;
+  align-items: flex-end;
+  transform: rotate(-90deg);
+  height: fit-content;
+  margin-top: 129px;
+}
+
+.instagram-link {
+  font-family: "DM Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 29px;
+  color: #FFFFFF;
+  transform-origin: 0 0;
+  margin-top: 361px;
+  height: fit-content;
+}
+
+.markup-bg {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: -337px;
+  padding-right: 10%;
+  overflow: hidden;
+}
+
+.markup {
+  margin-left: -131px;
+}
+
+.text-label {
+  margin-top: -28px;
+}
+
+.about-outer {
+  padding-left: 100px;
+  margin-top: -80px;
+}
+
+.about-container {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.pre-heading-text {
+  text-align: right;
+  font-family: "DM Sans", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 33px;
+  color: #232323;
+  width: 60%;
+}
+
+.about-header {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  color: #FFFFFF;
+  line-height: 110px;
+  font-size: 54px;
+  color: #CB5699;
+}
+
+.about-skewed-text {
+  font-family: "Earwing Factory";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 105.369px;
+  line-height: 126px;
+}
+
+.about-question {
+  font-family: "DM Sans", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 33px;
+  color: #232323;
+  font-size: 88px;
+  color: #CB5699;
+}
+
+/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,20 @@
+$desktop-width:1920px;
+$mobile-width:360px;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    max-width: $desktop-width;
+    margin: 0 auto;
+}
+
+@mixin wrapper(){
+    width: 100%;
+    padding: 0 25px;
+    max-width: 1920px;
+    overflow: hidden;
+}
