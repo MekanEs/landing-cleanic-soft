@@ -8,13 +8,16 @@ $mobile-width:360px;
 }
 
 body{
-    max-width: $desktop-width;
+
     margin: 0 auto;
 }
 
 @mixin wrapper(){
-    width: 100%;
-    padding: 0 25px;
-    max-width: 1920px;
+    max-width: $desktop-width;
+
     overflow: hidden;
+    margin: 0 auto;
+}
+.wrapper{
+    @include wrapper()
 }

@@ -1,0 +1,71 @@
+.products-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 292px;
+    h2{
+        font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 116.351px;
+line-height: 100px;
+opacity: 0.3;
+text-transform: uppercase;
+color: #E6A0C8;
+transition: opacity .3s ease;
+
+    }
+
+}
+.product-cards-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+    column-gap: 31px;
+    margin-top: -26px;
+    z-index: 1;
+}
+.card{
+padding: 13px 15px;
+background: url(../../assets/photo/card-bg.png) no-repeat center;
+overflow: hidden;
+width: 310px;
+}
+
+.card-inner{
+    opacity: 0;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: opacity .5s ease;
+    img{
+        padding-right: 18px;
+        padding-top: 17px;
+    }
+}
+.card:hover{
+    .card-inner{
+        opacity: 1;
+    }
+}
+.card-text{
+    margin-top: 10px;
+    font-family: $main-font;
+    font-style: normal;
+    font-weight: 500;
+    padding-bottom: 10px;
+    text-align: center;
+    color: #232323;
+}
+.card-name{
+    font-size: 20px;
+    line-height: 26px;
+}
+.see-more{
+    line-height: 0px;
+    font-size: 16px;
+    margin-top: -10px;
+    padding: 0px 24px 9px 42px;
+
+}

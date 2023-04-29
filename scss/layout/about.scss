@@ -1,22 +1,29 @@
 .about-outer{
-padding-left: 100px;
-margin-top: -80px;
+    margin-bottom: 88px;
+margin-top: -75px;
 }
 .about-container{
-    width: 80%;
+    background: url(../../assets/icons/warning-sticker.png) no-repeat;
+    background-position: right bottom;
+    background-position-x: 97%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    padding: 0px 295px 152px 295px;
 }
 .pre-heading-text{
     text-align: right;
     @include message-text();
-    width:60%;
+    margin-bottom: 130px;
+    padding-left: 34%;
 }
 .about-header{
-    @include header(54px);
+    @include header(67px);
     color: #CB5699;;
-
+letter-spacing: 0;
+ width: fit-content;
+ letter-spacing: 0;
+margin: 0 auto;
+ margin-bottom: 148px;
 }
 .about-skewed-text{
     font-family: $earwing;
@@ -29,4 +36,11 @@ line-height: 126px;
     @include message-text();
     font-size: 88px;
     color: #CB5699;;
+}
+.about-text{
+    text-align: left;
+    @include message-text();
+    width: 65%;
+    padding-left: 5px;
+    white-space: break-spaces;
 }

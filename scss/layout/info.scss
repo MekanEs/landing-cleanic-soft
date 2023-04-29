@@ -1,0 +1,47 @@
+.info-container{
+    display: flex;
+justify-content: flex-end;
+padding: 175px 0 175px 0;
+background: url(../../assets/photo/product-img.png) no-repeat left 74%,
+            url(../../assets/icons/product-bg.svg) no-repeat 8.4% 55%,
+            url(../../assets/icons/product-bg-2.svg) no-repeat 19.8% 31%,
+            url(../../assets/icons/info-bg-1.svg) no-repeat 43.8% 28%,
+            url(../../assets/icons/info-bg-1.svg) no-repeat 54.9% 64.6%,
+            url(../../assets/icons/info-bg-1.svg) no-repeat 90.9% 37%,
+            url(../../assets/icons/info-flower.svg) no-repeat 98.6% 92.2%;
+}
+.info-text{
+
+display: flex;
+flex-direction: column;
+padding-right: 6%;
+padding-left: 36%;
+text-align: center;
+}
+.info-text-first{
+    margin-left: 110px;
+    margin-right: 135px;
+border-radius: 25px;
+padding: 70px 43px 79px;
+@include message-text();
+background-color: #FCF2D7;
+}
+.info-text-second{
+    margin-left: 610px;
+    margin-top: 62px;
+ background-color: #CEB0D7;
+ @include message-text();
+ border-radius: 17px;
+ letter-spacing: 2px;
+ white-space:normal;
+ padding: 15px 14px 18px;
+}
+.info-text-third{
+background-color: #E1F2FD;
+margin-top: 50px;
+@include message-text();
+border-radius: 25px;
+padding: 44px 43px 50px;
+margin-left: 10px;
+    margin-right: 365px;
+}
