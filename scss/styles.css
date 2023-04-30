@@ -317,7 +317,7 @@ body {
   font-style: normal;
   font-weight: 700;
   font-size: 116.351px;
-  line-height: 100px;
+  line-height: 73px;
   opacity: 0.3;
   text-transform: uppercase;
   color: #E6A0C8;
@@ -327,30 +327,40 @@ body {
 .product-cards-container {
   display: flex;
   justify-content: space-between;
-  padding: 0 20px;
-  column-gap: 31px;
-  margin-top: -26px;
+  column-gap: 32px;
   z-index: 1;
 }
 
 .card {
-  padding: 13px 15px;
+  max-width: 315px;
   background: url(../../assets/photo/card-bg.png) no-repeat center;
-  overflow: hidden;
-  width: 310px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-height: 433px;
+  padding: 15px 15px;
 }
 
 .card-inner {
-  opacity: 0;
   background-color: #FFFFFF;
+  width: 100%;
+  opacity: 0;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  transition: opacity 0.5s ease;
+  row-gap: 14px;
+  transition: opacity 0.3s ease;
 }
-.card-inner img {
-  padding-right: 18px;
-  padding-top: 17px;
+
+.card-img-container {
+  margin-top: 35px;
+  max-width: 280px;
+  display: flex;
+  justify-content: center;
+  max-height: 280px;
+}
+.card-img-container img {
+  object-fit: cover;
+  margin-right: 10px;
 }
 
 .card:hover .card-inner {
@@ -358,25 +368,21 @@ body {
 }
 
 .card-text {
-  margin-top: 10px;
-  font-family: "DM Sans", sans-serif;
+  font-family: "DM Sans";
   font-style: normal;
   font-weight: 500;
-  padding-bottom: 10px;
+  line-height: 26px;
   text-align: center;
   color: #232323;
+  padding: 10px 10px 10px 10px;
 }
 
 .card-name {
   font-size: 20px;
-  line-height: 26px;
 }
 
 .see-more {
-  line-height: 0px;
-  font-size: 16px;
-  margin-top: -10px;
-  padding: 0px 24px 9px 42px;
+  font-size: 14px;
 }
 
 /*# sourceMappingURL=styles.css.map */
