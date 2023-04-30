@@ -1,0 +1,27 @@
+.follow-us-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 110px;
+}
+.link{
+    font-family: $big-font;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 26px;
+    text-align: center;
+    white-space: break-spaces;
+    text-align: center;
+    color: #232323;
+letter-spacing: 1px;
+a{
+    color: #232323;
+}
+}
+.slider{
+    margin: 31px;
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+}

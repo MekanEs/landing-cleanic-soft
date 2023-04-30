@@ -1,0 +1,81 @@
+.review-container{
+    margin-top: 100px;
+    padding: 130px 230px;
+}
+.dialog-areas{
+    background: url(../../assets/icons/review-area-dialog-tail.svg) no-repeat 9% 42%,
+                url(../../assets/icons/tail-2.svg) no-repeat 94% 99%,;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    row-gap: 75px;
+    @include message-text();
+    padding-bottom: 30px;
+}
+.first-review{
+ padding: 35px 0 0 5px;
+display: flex;
+justify-content: flex-start;
+align-items: center;
+margin-left: 1.8%;
+}
+.rev1-img{
+    width: 186px;
+    height: 186px;
+    object-fit: contain;
+    border-radius: 100px;
+    z-index: 1;
+}
+.review-area{
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+
+}
+.review-area-1{
+margin-left: -93px;
+    text-align: left;
+    white-space: break-spaces;
+    padding:49px 135px 53px 138px;;
+background: url(../../assets/icons/review-flower.png) no-repeat 105% 122%;
+background-color: #D1B9DA;
+}
+.second-review{
+    padding: 40px 0;
+    display: flex;
+justify-content: flex-end;
+align-items: center;
+}
+.rev2-img{
+    width: 186px;
+    height: 186px;
+    object-fit: contain;
+    border-radius: 100px;
+    z-index: 1;
+}
+.review-area-2{
+    background: url(../../assets/icons/review-flower.png) no-repeat -2% 122%;
+    background-color: #C6DBD8;
+    text-align: right;
+    white-space: break-spaces;
+    padding:50px 139px 51px 100px;
+    margin-right: -93px;
+}
+.review-message{
+    margin-bottom: 10px;
+}
+.reviewer-name{
+    font-family: $big-font;
+font-weight: 700;
+font-style: normal;
+
+font-size: 27px;
+line-height: 39px;
+color: #575757;
+}
+.reviewer-status{
+    font-family: 'DM Sans';
+    font-size: 16px;
+    line-height: 21px;
+}
