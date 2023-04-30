@@ -15,7 +15,7 @@ body{
 @mixin wrapper(){
     max-width: $desktop-width;
 
-    overflow: hidden;
+
     margin: 0 auto;
 }
 .wrapper{
