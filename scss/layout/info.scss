@@ -1,8 +1,8 @@
 .info-container{
     display: flex;
-justify-content: flex-end;
-padding: 175px 0 175px 0;
-background: url(../../assets/photo/product-img.png) no-repeat left 74%,
+justify-content: space-between;
+padding: 175px 115px 48px 150px;
+background:
             url(../../assets/icons/product-bg.svg) no-repeat 8.4% 55%,
             url(../../assets/icons/product-bg-2.svg) no-repeat 19.8% 31%,
             url(../../assets/icons/info-bg-1.svg) no-repeat 43.8% 28%,
@@ -14,8 +14,7 @@ background: url(../../assets/photo/product-img.png) no-repeat left 74%,
 
 display: flex;
 flex-direction: column;
-padding-right: 6%;
-padding-left: 36%;
+max-width: 1115px;
 text-align: center;
 }
 .info-text-first{
@@ -44,4 +43,13 @@ border-radius: 25px;
 padding: 44px 40px 50px;
 margin-left: 10px;
     margin-right: 365px;
+}
+.product-image{
+    justify-content: center;
+    width: 500px;
+    display: flex;
+  img{
+    margin-left: 83px;
+  margin-top: -46px;
+  }
 }
