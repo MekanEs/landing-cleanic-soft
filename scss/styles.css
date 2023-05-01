@@ -134,10 +134,10 @@ body {
 }
 @media (max-width: 1500px) {
   .header-container {
-    background: url(../../assets/photo/header-image.jpg) no-repeat 30% 70%;
+    background: url(../assets/photo/header-image.jpg) no-repeat 30% 70%;
   }
   .motto {
-    background: url(../../assets/icons/vector-text/&.svg) no-repeat 21% 50%;
+    background: url(../assets/icons/vector-text/&.svg) no-repeat 21% 50%;
     background-size: 40%;
     row-gap: 100px;
   }
