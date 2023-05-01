@@ -383,7 +383,6 @@ body {
   align-items: center;
   display: flex;
   padding: 25px 0 0 0;
-  display: none;
 }
 
 .badz-text {
@@ -427,7 +426,6 @@ body {
   justify-content: space-between;
   padding: 175px 115px 48px 150px;
   background: url(../../assets/icons/product-bg.svg) no-repeat 8.4% 55%, url(../../assets/icons/product-bg-2.svg) no-repeat 19.8% 31%, url(../../assets/icons/info-bg-1.svg) no-repeat 43.8% 28%, url(../../assets/icons/info-bg-1.svg) no-repeat 54.9% 64.6%, url(../../assets/icons/info-bg-1.svg) no-repeat 90.9% 37%, url(../../assets/icons/info-flower.svg) no-repeat 98.6% 92.2%;
-  display: none;
 }
 
 .info-text {
@@ -514,7 +512,6 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  display: none;
 }
 .products-container h2 {
   font-family: "Montserrat";
@@ -590,7 +587,6 @@ body {
 }
 
 .review-container {
-  display: none;
   margin-top: 100px;
   padding: 130px 230px 97px 230px;
   background: url(../../assets/icons/review-background/Group\ 21.png) no-repeat 93.8% 1%, url(../../assets/icons/review-background/Group\ 22.png) no-repeat 78% 30%, url(../../assets/icons/review-background/Group\ 24.png) no-repeat 53.6% 11.2%, url(../../assets/icons/review-background/Group\ 25.png) no-repeat 20.6% 89.2%, url(../../assets/icons/review-background/Vector-1.png) no-repeat 8.6% 3.2%, url(../../assets/icons/review-background/Vector.png) no-repeat 0% 66.7%;
@@ -699,7 +695,6 @@ body {
   flex-direction: column;
   align-items: center;
   margin-top: 110px;
-  display: none;
 }
 
 .link {
@@ -729,7 +724,6 @@ body {
   max-width: 1920px;
   margin: 0 auto;
   padding: 0;
-  display: none;
 }
 
 .footer-container {
