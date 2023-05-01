@@ -1,23 +1,31 @@
 .review-container{
+    display: none;
     margin-top: 100px;
-    padding: 130px 230px;
+    padding: 130px 230px 97px 230px;
+    background: url(../../assets/icons/review-background/Group\ 21.png) no-repeat 93.8% 1%,
+    url(../../assets/icons/review-background/Group\ 22.png) no-repeat 78% 30%,
+    url(../../assets/icons/review-background/Group\ 24.png) no-repeat 53.6% 11.2%,
+    url(../../assets/icons/review-background/Group\ 25.png) no-repeat 20.6% 89.2%,
+    url(../../assets/icons/review-background/Vector-1.png) no-repeat 8.6% 3.2%,
+    url(../../assets/icons/review-background/Vector.png) no-repeat 0% 66.7%;
 }
 .dialog-areas{
-    background: url(../../assets/icons/review-area-dialog-tail.svg) no-repeat 9% 42%,
-                url(../../assets/icons/tail-2.svg) no-repeat 94% 99%,;
+
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    row-gap: 75px;
+    row-gap: 20px;
     @include message-text();
     padding-bottom: 30px;
 }
 .first-review{
+    background: url(../../assets/icons/review-area-dialog-tail.svg) no-repeat 7% 101%;
  padding: 35px 0 0 5px;
 display: flex;
 justify-content: flex-start;
 align-items: center;
 margin-left: 1.8%;
+padding-bottom: 60px;
 }
 .rev1-img{
     width: 186px;
@@ -42,7 +50,8 @@ background: url(../../assets/icons/review-flower.png) no-repeat 105% 122%;
 background-color: #D1B9DA;
 }
 .second-review{
-    padding: 40px 0;
+    background: url(../../assets/icons/tail-2.svg) no-repeat 94% 97%;
+    padding:40px 0 70px 0;
     display: flex;
 justify-content: flex-end;
 align-items: center;

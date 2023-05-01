@@ -10,7 +10,7 @@ $earwing: 'Earwing Factory';
 @mixin header($size){
     font-family: $big-font;
     font-style: normal;
-    font-weight: 900;
+    font-weight: 700;
     color: #FFFFFF;
     line-height: 110px;
     font-size:$size;
@@ -22,4 +22,12 @@ $earwing: 'Earwing Factory';
     font-size: 25px;
     line-height: 33px;
     color: #232323;
+    @media (max-width:1000px){
+
+        font-size: 16px;
+        line-height: 21px;
+
+
 }
+}
+

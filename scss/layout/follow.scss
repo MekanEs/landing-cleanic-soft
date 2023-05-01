@@ -3,6 +3,7 @@
     flex-direction: column;
     align-items: center;
     margin-top: 110px;
+    display: none;
 }
 .link{
     font-family: $big-font;
@@ -15,6 +16,7 @@
     text-align: center;
     color: #232323;
 letter-spacing: 1px;
+
 a{
     color: #232323;
 }

@@ -1,16 +1,14 @@
 .header-container{
-    background: url('../../assets/photo/header-image.jpg');
+    background: url(../../assets/photo/header-image.jpg) no-repeat 17% 70%;
+    background-size: 1940px;
     width: 100%;
-    background-position-x: 37%;
-background-position-y: bottom;
 padding-top: 225px;
 padding-bottom: 8px;
 overflow: hidden;
 display: flex;
 justify-content: space-between;
-@media (max-width:1700px) {
-    background: url('../../assets/photo/header-image.jpg') no-repeat center;
-}
+
+
 }
 
 .headers{
@@ -27,9 +25,8 @@ max-height: 500px;
 background: url('../../assets/icons/vector-text/&.svg') no-repeat center;
 background-position-x: 388px;
 row-gap: 190px;
-@media (max-width:1700px) {
-    flex-direction: column-reverse;
-}
+
+
 }
 .ochrony{
     @include header(87px);
@@ -41,6 +38,10 @@ align-items: flex-start;
 padding-left: 152px;
 position: relative;
 text-transform: uppercase;
+span{
+    margin-right: 25px
+}
+
 }
 
 .hashtag{
@@ -52,31 +53,31 @@ text-transform: uppercase;
     align-items: flex-start;
     position: relative;
     text-transform: uppercase;
+
 }
+
 .circular{
-    justify-self: center;
     width: fit-content;
-margin-left: 46.4%;
+    margin-left: 36.4%;
     padding-top: 69px;
-padding-bottom: 48px;
+    padding-bottom: 48px;
 }
 .link-container{
     display: flex;
- align-items: flex-end;
- transform: rotate(-90deg);
-height: fit-content;
-margin-top: 153px;
+    align-items: flex-end;
+    transform: rotate(180deg);
+    height: fit-content;
+    margin-top: 129px;
+    margin-right: 23px;
 }
 .instagram-link{
-    font-family: $main-font;
+    font-family: "DM Sans", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 22px;
-    line-height: 29px;
+    direction: ltr;
     color: #FFFFFF;
-    transform-origin: 0 0;
-    margin-top: 81%;
-height: fit-content;
+    writing-mode: vertical-rl;
 }
 .markup-bg{
     display: flex;
@@ -93,3 +94,122 @@ height: fit-content;
 .text-label{
     margin-top: -28px;
 }
+
+@media (max-width:1600px) {
+    .motto{
+    flex-direction: column-reverse;
+    }
+    .link-container{
+        display: none;
+    }
+}
+@media (max-width:1500px) {
+    .header-container{
+        background: url(../../assets/photo/header-image.jpg) no-repeat 30% 70%;
+    }
+    .motto{
+        background: url(../../assets/icons/vector-text/&.svg) no-repeat 21% 50%;
+        background-size: 40%;
+        row-gap: 100px;
+
+    }
+    .ochrony{
+        font-size: 50px ;
+    }
+    .hashtag{
+        font-size: 50px;
+    }
+    .markup-bg {
+        display: flex;
+
+        row-gap: 162px;
+    }
+    .markup{
+
+        margin-top: -3px;
+        margin-left: -337px;
+       }
+
+}
+
+
+
+@media (max-width:1000px){
+    .header-container{
+        background: url(../../assets/photo/header-image.jpg) no-repeat 46% 100%;
+        background-size: 1117px;
+        padding-top: 83px;
+        padding-bottom: 30px;
+    }
+
+    .motto{
+        padding-left: 20px;
+        row-gap: 95px;
+        background: url(../../assets/icons/vector-text/&.svg) no-repeat 21% 50%;
+        background-size: 55%;
+
+    }
+    .ochrony{
+        padding-left: 53px;
+        font-size: 28px;
+        letter-spacing: 0;
+        display: flex;
+        flex-direction: column;
+        line-height: 70px;
+        font-weight: 500;
+    span{
+        font-size: 59px;
+        line-height: 0;
+        font-weight: 700;
+        margin-right: 0;
+    }
+    }
+    .hashtag{
+        display: flex;
+        flex-direction: column;
+        line-height: 45px;
+        font-weight: 500;
+        font-size: 55px;
+        letter-spacing: -3px;
+        span{
+            font-weight: 500;
+    font-size: 40px;
+    letter-spacing: 1px;
+        }
+    }
+    .circular{
+        width: fit-content;
+        margin-left: 35%;
+        padding-top: 67px;
+        padding-bottom: 48px;
+        img{
+            width: 230px;
+        }
+    }
+    .markup-bg {
+        display: flex;
+flex-direction: column;
+        row-gap: 162px;
+        margin-top: -380px;
+    }
+    .markup{
+        width: 154px;
+        margin-top: 25px;
+        margin-left: -109%;
+       }
+       .text-label{
+        width: 105px;
+        margin-top: -14px;
+        margin-left: 84%;
+       }
+
+    }
+    @media (max-width:660px){
+        .circular{
+            margin-left: 29%;}
+    }
+
+    @media (max-width:360px){
+        .circular{
+            margin-left: 17.5%;}
+    }

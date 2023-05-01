@@ -1,4 +1,5 @@
 .about-outer{
+
     margin-bottom: 88px;
 margin-top: -75px;
 }
@@ -44,3 +45,69 @@ line-height: 126px;
     padding-left: 5px;
     white-space: break-spaces;
 }
+@media (max-width:1600px){
+.about-container{
+    padding: 0px 160px 152px 160px;
+    background-size: 40%;
+}
+
+}
+
+@media (max-width:1000px){
+    .about-container{
+        padding: 0px 70px 152px 70px;
+    }
+    .about-outer {
+
+        margin-top: 63px;
+    }
+    .pre-heading-text{
+        padding-left: 18%;
+        margin-bottom: 0;
+    }
+
+    .about-header{
+        font-size: 27px;
+        letter-spacing: 0;
+        margin-bottom: 0;
+
+    }
+    .about-skewed-text{
+        font-size: 39px;
+        margin-left: -3px;
+    }
+    .about-question{
+        font-size: 29px;
+    }
+    .about-text{
+        margin-top: 7px ;
+          padding-left: 0;
+          white-space: normal;
+    }
+    }
+    @media (max-width:500px){
+        .about-container{
+            padding: 0px 16px 152px 16px;
+
+            background-position-x: 122%;
+    background-position-y: 58%;
+        }
+        .about-outer {
+
+            margin-top: 66px;
+        }
+        .about-text{
+              width: 230px;}
+        }
+
+
+
+
+
+@media (max-width:360px){
+.about-container{
+    background: url(../../assets/icons/Group\ 5.png) no-repeat 122% 58%;
+}
+
+
+    }
