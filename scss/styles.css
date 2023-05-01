@@ -158,7 +158,7 @@ body {
 }
 @media (max-width: 1000px) {
   .header-container {
-    background: url(../../assets/photo/header-image.jpg) no-repeat 46% 100%;
+    background: url(../assets/photo/header-image.jpg) no-repeat 46% 100%;
     background-size: 1117px;
     padding-top: 83px;
     padding-bottom: 30px;
@@ -166,7 +166,7 @@ body {
   .motto {
     padding-left: 20px;
     row-gap: 95px;
-    background: url(../../assets/icons/vector-text/&.svg) no-repeat 21% 50%;
+    background: url(../assets/icons/vector-text/&.svg) no-repeat 21% 50%;
     background-size: 55%;
   }
   .ochrony {
@@ -425,7 +425,7 @@ body {
   display: flex;
   justify-content: space-between;
   padding: 175px 115px 48px 150px;
-  background: url(../../assets/icons/product-bg.svg) no-repeat 8.4% 55%, url(../../assets/icons/product-bg-2.svg) no-repeat 19.8% 31%, url(../../assets/icons/info-bg-1.svg) no-repeat 43.8% 28%, url(../../assets/icons/info-bg-1.svg) no-repeat 54.9% 64.6%, url(../../assets/icons/info-bg-1.svg) no-repeat 90.9% 37%, url(../../assets/icons/info-flower.svg) no-repeat 98.6% 92.2%;
+  background: url(../assets/icons/product-bg.svg) no-repeat 8.4% 55%, url(../assets/icons/product-bg-2.svg) no-repeat 19.8% 31%, url(../assets/icons/info-bg-1.svg) no-repeat 43.8% 28%, url(../assets/icons/info-bg-1.svg) no-repeat 54.9% 64.6%, url(../assets/icons/info-bg-1.svg) no-repeat 90.9% 37%, url(../assets/icons/info-flower.svg) no-repeat 98.6% 92.2%;
 }
 
 .info-text {
@@ -534,7 +534,7 @@ body {
 
 .card {
   max-width: 315px;
-  background: url(../../assets/photo/card-bg.png) no-repeat center;
+  background: url(../assets/photo/card-bg.png) no-repeat center;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -589,7 +589,7 @@ body {
 .review-container {
   margin-top: 100px;
   padding: 130px 230px 97px 230px;
-  background: url(../../assets/icons/review-background/Group\ 21.png) no-repeat 93.8% 1%, url(../../assets/icons/review-background/Group\ 22.png) no-repeat 78% 30%, url(../../assets/icons/review-background/Group\ 24.png) no-repeat 53.6% 11.2%, url(../../assets/icons/review-background/Group\ 25.png) no-repeat 20.6% 89.2%, url(../../assets/icons/review-background/Vector-1.png) no-repeat 8.6% 3.2%, url(../../assets/icons/review-background/Vector.png) no-repeat 0% 66.7%;
+  background: url(../assets/icons/review-background/Group\ 21.png) no-repeat 93.8% 1%, url(../assets/icons/review-background/Group\ 22.png) no-repeat 78% 30%, url(../assets/icons/review-background/Group\ 24.png) no-repeat 53.6% 11.2%, url(../assets/icons/review-background/Group\ 25.png) no-repeat 20.6% 89.2%, url(../assets/icons/review-background/Vector-1.png) no-repeat 8.6% 3.2%, url(../assets/icons/review-background/Vector.png) no-repeat 0% 66.7%;
 }
 
 .dialog-areas {
@@ -613,7 +613,7 @@ body {
 }
 
 .first-review {
-  background: url(../../assets/icons/review-area-dialog-tail.svg) no-repeat 7% 101%;
+  background: url(../assets/icons/review-area-dialog-tail.svg) no-repeat 7% 101%;
   padding: 35px 0 0 5px;
   display: flex;
   justify-content: flex-start;
@@ -642,12 +642,12 @@ body {
   text-align: left;
   white-space: break-spaces;
   padding: 49px 135px 53px 138px;
-  background: url(../../assets/icons/review-flower.png) no-repeat 105% 122%;
+  background: url(../assets/icons/review-flower.png) no-repeat 105% 122%;
   background-color: #D1B9DA;
 }
 
 .second-review {
-  background: url(../../assets/icons/tail-2.svg) no-repeat 94% 97%;
+  background: url(../assets/icons/tail-2.svg) no-repeat 94% 97%;
   padding: 40px 0 70px 0;
   display: flex;
   justify-content: flex-end;
@@ -663,7 +663,7 @@ body {
 }
 
 .review-area-2 {
-  background: url(../../assets/icons/review-flower.png) no-repeat -2% 122%;
+  background: url(../assets/icons/review-flower.png) no-repeat -2% 122%;
   background-color: #C6DBD8;
   text-align: right;
   white-space: break-spaces;
@@ -728,7 +728,7 @@ body {
 
 .footer-container {
   margin-top: 136px;
-  background: url(../../assets/icons/footer-background/be\ super.png) no-repeat 32.7% 95.4%, url(../../assets/icons/footer-background/be\ beautiful.png) no-repeat 92% 81%, url(../../assets/icons/footer-background/be\ cool.png) no-repeat 7.8% 11%, url(../../assets/icons/footer-background/be\ funny.png) no-repeat 41% 79%, url(../../assets/icons/footer-background/be\ happy.png) no-repeat 14% 71%, url(../../assets/icons/footer-background/be\ ready.png) no-repeat 92% 14%, url(../../assets/icons/footer-background/Group\ 28.png) no-repeat 95% 40%, url(../../assets/icons/footer-background/Group\ 29.png) no-repeat 0% 28%, url(../../assets/icons/footer-background/Group\ 30.png) no-repeat 1.6% 68%, url(../../assets/icons/footer-background/Group\ 31.png) no-repeat 88.7% 102%, url(../../assets/icons/footer-background/Vector.png) no-repeat 12.5% 102%, url(../../assets/icons/footer-background/Vector\ 4.png) no-repeat 39% 51%, url(../../assets/icons/footer-bg.svg) no-repeat;
+  background: url(../assets/icons/footer-background/be\ super.png) no-repeat 32.7% 95.4%, url(../assets/icons/footer-background/be\ beautiful.png) no-repeat 92% 81%, url(../assets/icons/footer-background/be\ cool.png) no-repeat 7.8% 11%, url(../assets/icons/footer-background/be\ funny.png) no-repeat 41% 79%, url(../assets/icons/footer-background/be\ happy.png) no-repeat 14% 71%, url(../assets/icons/footer-background/be\ ready.png) no-repeat 92% 14%, url(../assets/icons/footer-background/Group\ 28.png) no-repeat 95% 40%, url(../assets/icons/footer-background/Group\ 29.png) no-repeat 0% 28%, url(../assets/icons/footer-background/Group\ 30.png) no-repeat 1.6% 68%, url(../assets/icons/footer-background/Group\ 31.png) no-repeat 88.7% 102%, url(../assets/icons/footer-background/Vector.png) no-repeat 12.5% 102%, url(../assets/icons/footer-background/Vector\ 4.png) no-repeat 39% 51%, url(../assets/icons/footer-bg.svg) no-repeat;
   padding: 120px 0 0 0;
 }
 .footer-container h2 {
