@@ -27,3 +27,42 @@ a{
     align-items: center;
     column-gap: 20px;
 }
+.slider-outer{
+    overflow: hidden;
+width: 100%;
+display: flex;
+    justify-content: center;
+}
+@keyframes slide {
+    from {transform: translateX(-25%);}
+    to {transform: translateX(25%)}
+  }
+@media (max-width:1500px){
+
+    .follow-us-container {
+
+        margin-top: 0;
+    }
+    .slider{
+        margin-top: 15px;
+        display: flex;
+        align-items: center;
+        column-gap: 20px;
+
+        img{
+            width: 100px;
+        }
+    }
+    .link{
+        font-size: 14px;
+        line-height: 20px;
+    }
+}
+@media (max-width:480px){
+    .slider{
+        animation-name: slide;
+        animation-duration: 15s;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+    }
+}

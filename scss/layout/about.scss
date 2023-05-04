@@ -87,13 +87,13 @@ line-height: 126px;
     }
     @media (max-width:500px){
         .about-container{
-            padding: 0px 16px 152px 16px;
+            padding: 0px 16px 0px 16px;
 
             background-position-x: 122%;
     background-position-y: 58%;
         }
         .about-outer {
-
+margin-bottom: 79px;
             margin-top: 66px;
         }
         .about-text{
@@ -106,7 +106,7 @@ line-height: 126px;
 
 @media (max-width:360px){
 .about-container{
-    background: url(../assets/icons/Group\ 5.png) no-repeat 122% 58%;
+    background: url(../assets/icons/Group\ 5.png) no-repeat 122% 84%;
 }
 
 

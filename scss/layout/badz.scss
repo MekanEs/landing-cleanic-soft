@@ -36,3 +36,84 @@ text-align: center;
    url(../assets/icons/vector-text/zero-bg2.png) no-repeat 100% 7%;
 
 }
+
+@media (max-width:1000px){
+    .badz-container{
+
+    padding: 0;
+
+    }
+    .flowers{
+        background: none;
+        padding: 86px 10px 66px 10px;
+    }
+    .dots{
+        background:no-repeat url(../assets/icons/dots-3.png) 99% 1.5%,
+         url(../assets/icons/dots-4.png) no-repeat 0% 80.5%,
+        url(../assets/icons/zerow.png) no-repeat 98% 100%;
+}
+.text-bg{
+    background: url(../assets/icons/text-bg.svg) no-repeat 51% 59%;
+background-size: 90%;
+padding: 50px;
+}
+.badz-text{
+    width: 100%;
+
+}
+}
+@media (max-width:600px){
+    .badz-container{
+
+    padding: 0;
+
+    }
+    .flowers{
+        background: url(../assets/icons/flower-little.png) no-repeat -6% 0%;
+        background-size: 18%;
+        padding: 50px 10px 66px 10px;
+    }
+    .dots{
+        background:no-repeat url(../assets/icons/dots-3.png) 99% 1.5%,
+         url(../assets/icons/dots-4.png) no-repeat 0% 80.5%,
+        url(../assets/icons/zerow.png) no-repeat 98% 100%;
+}
+.text-bg{
+    background:
+     url(../assets/icons/textarea-bg-2.png) no-repeat 51% 46%;
+
+
+    padding-bottom: 21px;
+
+}
+.badz-text{
+    width: 100%;
+    padding: 0 65px;
+}
+}
+@media (max-width:500px){
+    .text-bg{
+padding: 0;
+padding-bottom: 21px;
+    }
+
+    .flowers{
+
+        padding: 86px 10px 66px 10px;
+    }
+}
+
+@media (max-width:360px){
+    .text-bg{
+padding: 0;
+padding-bottom: 21px;
+    }
+    .badz-text{
+
+        padding: 0 28px;
+    }
+    .flowers{
+
+        padding: 86px 10px 66px 10px;
+    }
+}

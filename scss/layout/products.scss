@@ -31,6 +31,7 @@ align-items: center;
 justify-content: center;
 max-height: 433px;
 padding: 15px 15px;
+
 }
 
 .card-inner{
@@ -38,7 +39,7 @@ background-color: #FFFFFF;
 
 width: 100%;
 opacity: 0;
-
+overflow: hidden;
 display: flex;
 flex-direction: column;
 row-gap: 14px;
@@ -79,4 +80,83 @@ padding: 10px 10px 10px 10px;
 .see-more{
 
     font-size: 14px;
+}
+.product-cont-outer{
+overflow-x: scroll;
+overflow-y: visible;
+padding-top: 29px;
+    margin-top: -23px;
+width: 70%;
+}
+@media (max-width:1500px){
+    .products-container{
+
+    }
+    .product-cont-outer{
+        width: 80%;
+        }
+    .product-cards-container {
+
+    }
+}
+@media (max-width:1000px){
+    .products-container h2 {
+        margin-top: 45px;
+        font-size: 60px;
+
+            }
+            .product-cont-outer{
+                width: 90%;
+                }
+}
+@media (max-width:490px){
+    .product-cont-outer{
+        width: 100%;
+        }
+    .products-container{
+        //overflow-x: scroll;
+
+    }
+    .products-container h2 {
+margin-top: 45px;
+font-size: 40px;
+
+    }
+    .product-cards-container {
+column-gap: 10px;
+width: 100%;
+
+margin-left: 17px;
+margin-top: -138px;
+    }
+    .card{
+        margin-top: 110px;
+        width: 145px;
+        background-size: contain;
+        padding: 10px;
+
+    }
+    .card-img-container{
+        max-height: 145px;
+        margin-top: 9px;
+        img{
+            object-fit: contain;
+        }
+    }
+
+    .card-text{
+margin-top: -14px;
+line-height: 10px;
+        padding: 3px;
+        }
+        .card-name{
+            font-size: 12px;
+        }
+        .see-more{
+
+            font-size: 9px;
+            img{
+                width: 20%;
+            }
+        }
 }

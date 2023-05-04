@@ -88,3 +88,109 @@ color: #575757;
     font-size: 16px;
     line-height: 21px;
 }
+
+
+@media (max-width:1500px){
+    .review-container {
+
+        padding: 130px 125px 97px 125px;
+    }
+}
+
+
+
+@media (max-width:1200px){
+    .review-container {
+
+        padding: 130px 25px 97px 25px;
+    }
+    .first-review {
+        flex-direction: column;
+
+    }
+    .second-review{
+        flex-direction: column-reverse;
+    }
+    .rev1-img{
+        margin-bottom: -40px;
+    }
+    .rev2-img{
+        margin-bottom: -40px;
+    }
+    .review-area-2{
+        margin-right: 0;
+    }
+    }
+
+    @media (max-width:600px){
+        .dialog-areas{
+            row-gap: 0;
+            padding-bottom: 0;
+        }
+        .review-container{
+            margin-top: 0;
+            padding: 30px 25px 10px 25px;
+
+            background: url(../assets/icons/review-background/Group\ 21.png) no-repeat 91% 40.7%,
+             url(../assets/icons/review-background/Group\ 22.png) no-repeat 105% 58%,
+              url(../assets/icons/review-background/Group\ 24.png) no-repeat 53.6% 11.2%,
+               url(../assets/icons/review-background/Group\ 25.png) no-repeat 30.6% 75.2%,
+                url(../assets/icons/review-background/Vector-1.png) no-repeat 5.5% 5.7%,
+                 url(../assets/icons/review-background/Vector.png) no-repeat 5% 90.7%;
+            background-size: 19%, 18%, 15%, 14%, 17%, 23%;
+        }
+        .rev1-img{
+            margin-bottom: -60px;
+            width: 90px;
+            border-radius: 100px;
+            height: fit-content;
+        }
+        .rev2-img{
+            margin-bottom: 0px;
+            width: 90px;
+            border-radius: 100px;
+            height: fit-content;
+        }
+        .review-area{
+            padding: 38px 35px 5px 35px;
+            border-radius: 20px;
+            text-align: center;
+        }
+        .review-area-1{
+            margin: 0;
+margin-top: 40px;
+background-image: none;
+        }
+        .review-area-2{
+            margin: 0;
+margin-top: -20px;
+background-image: none;
+        }
+        .review-message{
+            margin: 0;
+        }
+.first-review{
+    margin-top: 6px;
+    margin-left: 2px;
+    margin-right: 15px;
+    background-size: 37%;
+    background-position: 2% 89%;
+}
+.second-review{
+
+    margin-left: 2px;
+    margin-right: 15px;
+    background-size: 37%;
+    background-position: 98% 87%;
+    padding-top: 0;
+}
+.reviewer-name{
+    font-size: 16px;
+    margin-top: 20px;
+    line-height: normal;
+}
+.reviewer-status{
+    font-size: 12px;
+
+}
+    }
