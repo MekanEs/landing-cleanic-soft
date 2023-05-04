@@ -82,22 +82,25 @@ padding: 10px 10px 10px 10px;
     font-size: 14px;
 }
 .product-cont-outer{
-overflow-x: scroll;
+
 overflow-y: visible;
 padding-top: 29px;
     margin-top: -23px;
 width: 70%;
 }
-@media (max-width:1500px){
-    .products-container{
-
-    }
+@media (max-width:1680px){
     .product-cont-outer{
+        overflow-x: scroll;
+
+        }
+}
+@media (max-width:1500px){
+
+    .product-cont-outer{
+        overflow-x: scroll;
         width: 80%;
         }
-    .product-cards-container {
 
-    }
 }
 @media (max-width:1000px){
     .products-container h2 {
@@ -113,10 +116,7 @@ width: 70%;
     .product-cont-outer{
         width: 100%;
         }
-    .products-container{
-        //overflow-x: scroll;
 
-    }
     .products-container h2 {
 margin-top: 45px;
 font-size: 40px;

@@ -721,15 +721,20 @@ body {
 }
 
 .product-cont-outer {
-  overflow-x: scroll;
   overflow-y: visible;
   padding-top: 29px;
   margin-top: -23px;
   width: 70%;
 }
 
+@media (max-width: 1680px) {
+  .product-cont-outer {
+    overflow-x: scroll;
+  }
+}
 @media (max-width: 1500px) {
   .product-cont-outer {
+    overflow-x: scroll;
     width: 80%;
   }
 }
