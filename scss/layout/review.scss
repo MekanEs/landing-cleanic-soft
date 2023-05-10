@@ -95,6 +95,9 @@ color: #575757;
 
         padding: 130px 125px 97px 125px;
     }
+    .second-review{
+        background: url(../assets/icons/tail-2.svg) no-repeat 89% 97%;
+    }
 }
 
 
@@ -129,7 +132,7 @@ color: #575757;
         }
         .review-container{
             margin-top: 0;
-            padding: 30px 25px 10px 25px;
+            padding: 7px 25px 10px 25px;
 
             background: url(../assets/icons/review-background/Group\ 21.png) no-repeat 91% 40.7%,
              url(../assets/icons/review-background/Group\ 22.png) no-repeat 105% 58%,
@@ -186,7 +189,7 @@ background-image: none;
 }
 .reviewer-name{
     font-size: 16px;
-    margin-top: 20px;
+    margin-top: 15px;
     line-height: normal;
 }
 .reviewer-status{

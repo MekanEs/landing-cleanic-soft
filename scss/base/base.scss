@@ -1,6 +1,11 @@
 $desktop-width:1920px;
 $mobile-width:360px;
-
+:root {
+    color-scheme: light only;
+}
+a{
+    text-decoration: none;
+}
 *{
     margin: 0;
     padding: 0;

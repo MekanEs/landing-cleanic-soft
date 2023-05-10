@@ -1,7 +1,9 @@
-
+.badz{
+    background-color:#F0805F;
+}
 
 .badz-container{
-    background-color:#F0805F;
+
     justify-content: center;
     align-items: center;
     display: flex;
@@ -36,6 +38,14 @@ text-align: center;
    url(../assets/icons/vector-text/zero-bg2.png) no-repeat 100% 7%;
 
 }
+
+@media (max-width:1750px){
+    .flowers{
+        background-position: left top, right 120%;
+      background-size: 15%, 15%;
+    }
+}
+
 
 @media (max-width:1000px){
     .badz-container{
@@ -101,8 +111,23 @@ padding-bottom: 21px;
 
         padding: 86px 10px 66px 10px;
     }
+    .badz-text{
+        padding: 0 88px;
+    }
 }
 
+@media (max-width:435px){
+
+    .badz-text{
+        padding: 0 50px;
+    }
+}
+@media (max-width:425px){
+
+    .badz-text{
+        padding: 0 40px;
+    }
+}
 @media (max-width:360px){
     .text-bg{
 padding: 0;

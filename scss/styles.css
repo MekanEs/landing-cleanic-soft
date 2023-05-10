@@ -2,6 +2,14 @@
   font-family: Earwing Factory;
   src: url(./base/earwig.ttf);
 }
+:root {
+  color-scheme: light only;
+}
+
+a {
+  text-decoration: none;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -327,7 +335,19 @@ body {
 @media (max-width: 1600px) {
   .about-container {
     padding: 0px 160px 152px 160px;
-    background-size: 40%;
+    background-size: 30%;
+  }
+  .about-header {
+    font-size: 45px;
+    letter-spacing: 0;
+    margin-bottom: 0;
+  }
+  .about-skewed-text {
+    font-size: 60px;
+    margin-left: -3px;
+  }
+  .about-question {
+    font-size: 45px;
   }
 }
 @media (max-width: 1000px) {
@@ -359,11 +379,15 @@ body {
     white-space: normal;
   }
 }
-@media (max-width: 500px) {
+@media (max-width: 600px) {
   .about-container {
     padding: 0px 16px 0px 16px;
-    background-position-x: 122%;
-    background-position-y: 58%;
+    background: url(../assets/icons/Group\ 5.png) no-repeat 100% 92%;
+  }
+}
+@media (max-width: 500px) {
+  .about-container {
+    background: url(../assets/icons/Group\ 5.png) no-repeat 110% 92%;
   }
   .about-outer {
     margin-bottom: 79px;
@@ -378,8 +402,11 @@ body {
     background: url(../assets/icons/Group\ 5.png) no-repeat 122% 84%;
   }
 }
-.badz-container {
+.badz {
   background-color: #F0805F;
+}
+
+.badz-container {
   justify-content: center;
   align-items: center;
   display: flex;
@@ -422,6 +449,12 @@ body {
   background: url(../assets/icons/text-bg.svg) no-repeat 51% 59%, url(../assets/icons/vector-text/zero-bg.png) no-repeat 0 103.5%, url(../assets/icons/vector-text/zero-bg2.png) no-repeat 100% 7%;
 }
 
+@media (max-width: 1750px) {
+  .flowers {
+    background-position: left top, right 120%;
+    background-size: 15%, 15%;
+  }
+}
 @media (max-width: 1000px) {
   .badz-container {
     padding: 0;
@@ -470,6 +503,19 @@ body {
   }
   .flowers {
     padding: 86px 10px 66px 10px;
+  }
+  .badz-text {
+    padding: 0 88px;
+  }
+}
+@media (max-width: 435px) {
+  .badz-text {
+    padding: 0 50px;
+  }
+}
+@media (max-width: 425px) {
+  .badz-text {
+    padding: 0 40px;
   }
 }
 @media (max-width: 360px) {
@@ -585,14 +631,14 @@ body {
   .info-container {
     flex-direction: column;
     align-items: center;
-    background: url(../assets/icons/product-bg.svg) no-repeat 42.4% 22%, url(../assets/icons/product-bg-2.svg) no-repeat 60.8% 20%, url(../assets/icons/info-bg-1.svg) no-repeat 35.8% 58%, url(../assets/icons/info-bg-1.svg) no-repeat 79.9% 64.6%, url(../assets/icons/info-bg-1.svg) no-repeat 39.9% 88%, url(../assets/icons/info-flower.svg) no-repeat 18.6% 46.2%;
+    background: url(../assets/icons/product-bg.svg) no-repeat 41.4% 10%, url(../assets/icons/product-bg-2.svg) no-repeat 58.8% 3%, url(../assets/icons/info-bg-1.svg) no-repeat 35.8% 58%, url(../assets/icons/info-bg-1.svg) no-repeat 79.9% 64.6%, url(../assets/icons/info-bg-1.svg) no-repeat 39.9% 88%, url(../assets/icons/info-flower.svg) no-repeat 10.6% 46.2%;
     padding: 0 50px;
   }
   .product-image img {
     width: 220%;
   }
 }
-@media (max-width: 1000px) {
+@media (max-width: 1200px) {
   .product-image {
     width: 80%;
   }
@@ -602,16 +648,22 @@ body {
   }
   .info-container {
     padding: 0 5px;
-    background: url(../assets/icons/product-bg-3.png) no-repeat 31% 14%, url(../assets/icons/product-bg-4.png) no-repeat 63.8% 8.4%, url(../assets/icons/info-bg-small.png) no-repeat 100% 66.5%, url(../assets/icons/info-bg-small-2.png) no-repeat 15% 88.5%, url(../assets/icons/product-flower-small.png) no-repeat -13.4% 27.2%, url(../assets/icons/product-bg-blue.png) no-repeat 18.9% 10.8%, url(../assets/icons/product-bg-yellow.png) no-repeat 81% 21%, url(../assets/icons/dots-product.png) no-repeat 100% 28.8%, url(../assets/icons/product-bg-smth.png) no-repeat 100% 9.6%;
+    background: url(../assets/icons/product-bg-3.png) no-repeat 31% 14%, url(../assets/icons/product-bg-4.png) no-repeat 63.8% 8.4%, url(../assets/icons/info-bg-small.png) no-repeat 100% 66.5%, url(../assets/icons/info-bg-small-2.png) no-repeat 15% 88.5%, url(../assets/icons/product-flower-small.png) no-repeat 0% 40.2%, url(../assets/icons/product-bg-blue.png) no-repeat 18.9% 10.8%, url(../assets/icons/product-bg-yellow.png) no-repeat 81% 21%, url(../assets/icons/dots-product.png) no-repeat 100% 28.8%, url(../assets/icons/product-bg-smth.png) no-repeat 100% 9.6%;
+    background-size: 25%, 25%, 25%, 25%, 10%, auto, auto, auto, auto;
   }
   .info-text-third {
     margin-right: 110px;
   }
 }
 @media (max-width: 660px) {
+  .info-container {
+    padding: 0 5px;
+    background: url(../assets/icons/product-bg-3.png) no-repeat 36% 14%, url(../assets/icons/product-bg-4.png) no-repeat 61.8% 8.4%, url(../assets/icons/info-bg-small.png) no-repeat 100% 66.5%, url(../assets/icons/info-bg-small-2.png) no-repeat 15% 88.5%, url(../assets/icons/product-flower-small.png) no-repeat 0% 40.2%, url(../assets/icons/product-bg-blue.png) no-repeat 18.9% 10.8%, url(../assets/icons/product-bg-yellow.png) no-repeat 81% 21%, url(../assets/icons/dots-product.png) no-repeat 100% 28.8%, url(../assets/icons/product-bg-smth.png) no-repeat 100% 9.6%;
+    background-size: auto, auto, auto, auto, 10%, auto, auto, auto, auto;
+  }
   .product-image {
-    margin-top: 17%;
-    width: 100%;
+    margin-top: 5%;
+    width: 350px;
     overflow: hidden;
   }
   .product-image .product-image img {
@@ -639,6 +691,16 @@ body {
     margin: 47px 12px 9px 24px;
     padding: 12px 7px 12px 9px;
     border-radius: 10px;
+  }
+}
+@media (max-width: 460px) {
+  .info-container {
+    padding: 0 5px;
+    background: url(../assets/icons/product-bg-3.png) no-repeat 31% 14%, url(../assets/icons/product-bg-4.png) no-repeat 63.8% 8.4%, url(../assets/icons/info-bg-small.png) no-repeat 100% 66.5%, url(../assets/icons/info-bg-small-2.png) no-repeat 15% 88.5%, url(../assets/icons/product-flower-small.png) no-repeat 0% 40.2%, url(../assets/icons/product-bg-blue.png) no-repeat 18.9% 10.8%, url(../assets/icons/product-bg-yellow.png) no-repeat 81% 21%, url(../assets/icons/dots-product.png) no-repeat 100% 28.8%, url(../assets/icons/product-bg-smth.png) no-repeat 100% 9.6%;
+    background-size: auto, auto, auto, auto, 10%, auto, auto, auto, auto;
+  }
+  .product-image {
+    margin-top: 17%;
   }
 }
 .products-container {
@@ -728,8 +790,37 @@ body {
 }
 
 @media (max-width: 1680px) {
+  .products-container {
+    margin-top: 20px;
+  }
   .product-cont-outer {
     overflow-x: scroll;
+  }
+  /* width */
+  .product-cont-outer::-webkit-scrollbar {
+    background: rgba(230, 160, 201, 0.68);
+    border-radius: 10px;
+    height: 23px;
+    padding: 5px;
+    margin: 10%;
+  }
+  /* Track */
+  .product-cont-outer::-webkit-scrollbar-button {
+    height: 10px;
+    width: 10px;
+    padding: 3px;
+  }
+  /* Handle */
+  .product-cont-outer::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.86);
+    border-radius: 10px;
+    border: 6px solid transparent;
+    border-radius: 9px;
+    background-clip: content-box;
+  }
+  /* Handle on hover */
+  .product-cont-outer ::-webkit-scrollbar-thumb:hover {
+    background: rgba(3, 2, 2, 0.5);
   }
 }
 @media (max-width: 1500px) {
@@ -748,6 +839,9 @@ body {
   }
 }
 @media (max-width: 490px) {
+  .products-container {
+    margin-top: 0;
+  }
   .product-cont-outer {
     width: 100%;
   }
@@ -897,6 +991,9 @@ body {
   .review-container {
     padding: 130px 125px 97px 125px;
   }
+  .second-review {
+    background: url(../assets/icons/tail-2.svg) no-repeat 89% 97%;
+  }
 }
 @media (max-width: 1200px) {
   .review-container {
@@ -925,7 +1022,7 @@ body {
   }
   .review-container {
     margin-top: 0;
-    padding: 30px 25px 10px 25px;
+    padding: 7px 25px 10px 25px;
     background: url(../assets/icons/review-background/Group\ 21.png) no-repeat 91% 40.7%, url(../assets/icons/review-background/Group\ 22.png) no-repeat 105% 58%, url(../assets/icons/review-background/Group\ 24.png) no-repeat 53.6% 11.2%, url(../assets/icons/review-background/Group\ 25.png) no-repeat 30.6% 75.2%, url(../assets/icons/review-background/Vector-1.png) no-repeat 5.5% 5.7%, url(../assets/icons/review-background/Vector.png) no-repeat 5% 90.7%;
     background-size: 19%, 18%, 15%, 14%, 17%, 23%;
   }
@@ -975,7 +1072,7 @@ body {
   }
   .reviewer-name {
     font-size: 16px;
-    margin-top: 20px;
+    margin-top: 15px;
     line-height: normal;
   }
   .reviewer-status {
@@ -992,7 +1089,7 @@ body {
 .link {
   font-family: "Montserrat", sans-serif;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 600;
   font-size: 22px;
   line-height: 26px;
   text-align: center;
@@ -1019,12 +1116,16 @@ body {
   justify-content: center;
 }
 
-@keyframes slide {
-  from {
-    transform: translateX(-25%);
+.for-slide {
+  display: none;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
   }
-  to {
-    transform: translateX(25%);
+  100% {
+    transform: translateX(-720px);
   }
 }
 @media (max-width: 1500px) {
@@ -1037,7 +1138,10 @@ body {
     align-items: center;
     column-gap: 20px;
   }
-  .slider img {
+  .slider .slide {
+    width: 100px;
+  }
+  .slider .slide img {
     width: 100px;
   }
   .link {
@@ -1046,13 +1150,18 @@ body {
   }
 }
 @media (max-width: 480px) {
+  .for-slide {
+    display: block;
+  }
   .slider {
-    animation-name: slide;
-    animation-duration: 15s;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
+    width: 840px;
+    animation: scroll 15s linear infinite;
   }
 }
+.footer {
+  background: url(../assets/icons/footer-background/Vector\ 4.png) round;
+}
+
 .footer-wrapper {
   max-width: 1920px;
   margin: 0 auto;
@@ -1061,7 +1170,7 @@ body {
 
 .footer-container {
   margin-top: 136px;
-  background: url(../assets/icons/footer-background/be\ super.png) no-repeat 32.7% 95.4%, url(../assets/icons/footer-background/be\ beautiful.png) no-repeat 92% 81%, url(../assets/icons/footer-background/be\ cool.png) no-repeat 7.8% 11%, url(../assets/icons/footer-background/be\ funny.png) no-repeat 41% 79%, url(../assets/icons/footer-background/be\ happy.png) no-repeat 14% 71%, url(../assets/icons/footer-background/be\ ready.png) no-repeat 92% 14%, url(../assets/icons/footer-background/Group\ 28.png) no-repeat 95% 40%, url(../assets/icons/footer-background/Group\ 29.png) no-repeat 0% 28%, url(../assets/icons/footer-background/Group\ 30.png) no-repeat 1.6% 68%, url(../assets/icons/footer-background/Group\ 31.png) no-repeat 88.7% 102%, url(../assets/icons/footer-background/Vector.png) no-repeat 12.5% 102%, url(../assets/icons/footer-background/Vector\ 4.png) no-repeat 39% 51%, url(../assets/icons/footer-bg.svg) no-repeat;
+  background: url(../assets/icons/footer-background/be\ super.png) no-repeat 32.7% 95.4%, url(../assets/icons/footer-background/be\ beautiful.png) no-repeat 92% 81%, url(../assets/icons/footer-background/be\ cool.png) no-repeat 7.8% 11%, url(../assets/icons/footer-background/be\ funny.png) no-repeat 41% 79%, url(../assets/icons/footer-background/be\ happy.png) no-repeat 14% 71%, url(../assets/icons/footer-background/be\ ready.png) no-repeat 92% 14%, url(../assets/icons/footer-background/Group\ 28.png) no-repeat 95% 40%, url(../assets/icons/footer-background/Group\ 29.png) no-repeat 0% 28%, url(../assets/icons/footer-background/Group\ 30.png) no-repeat 1.6% 68%, url(../assets/icons/footer-background/Group\ 31.png) no-repeat 88.7% 102%, url(../assets/icons/footer-bg.svg) no-repeat;
   padding: 120px 0 0 0;
 }
 .footer-container h2 {
@@ -1171,8 +1280,8 @@ body {
 @media (max-width: 600px) {
   .footer-container {
     margin-top: 0px;
-    background: url(../assets/icons/footer-bg.svg) no-repeat 51% 40%;
-    background-size: 230%;
+    background: url(../assets/icons/footer-background/be\ super.png) no-repeat 32.7% 95.4%, url(../assets/icons/footer-background/be\ beautiful.png) no-repeat 92% 81%, url(../assets/icons/footer-background/be\ cool.png) no-repeat 7.8% 11%, url(../assets/icons/footer-background/be\ funny.png) no-repeat 41% 79%, url(../assets/icons/footer-background/be\ happy.png) no-repeat 14% 71%, url(../assets/icons/footer-background/be\ ready.png) no-repeat 92% 14%, url(../assets/icons/footer-background/Vector\ 4.png) no-repeat 39% 51%;
+    background-size: 230%, 50%, 10%;
     padding-top: 70px;
   }
   .footer-container h2 {

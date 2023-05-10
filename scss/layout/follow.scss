@@ -8,7 +8,7 @@
 .link{
     font-family: $big-font;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 600;
     font-size: 22px;
     line-height: 26px;
     text-align: center;
@@ -19,6 +19,7 @@ letter-spacing: 1px;
 
 a{
     color: #232323;
+
 }
 }
 .slider{
@@ -33,10 +34,17 @@ width: 100%;
 display: flex;
     justify-content: center;
 }
-@keyframes slide {
-    from {transform: translateX(-25%);}
-    to {transform: translateX(25%)}
-  }
+.for-slide{
+display: none;
+}
+
+$animationSpeed: 15s;
+
+// Animation
+@keyframes scroll {
+	0% { transform: translateX(0); }
+	100% { transform: translateX(calc(-120px * 6))}
+}
 @media (max-width:1500px){
 
     .follow-us-container {
@@ -49,8 +57,11 @@ display: flex;
         align-items: center;
         column-gap: 20px;
 
-        img{
+        .slide{
             width: 100px;
+            img{
+                width: 100px;
+            }
         }
     }
     .link{
@@ -59,10 +70,12 @@ display: flex;
     }
 }
 @media (max-width:480px){
+    .for-slide{
+        display: block;
+        }
     .slider{
-        animation-name: slide;
-        animation-duration: 15s;
-        animation-iteration-count: infinite;
-        animation-direction: alternate;
+        width: calc(140px *6);
+        animation: scroll $animationSpeed linear infinite;
+
     }
 }
