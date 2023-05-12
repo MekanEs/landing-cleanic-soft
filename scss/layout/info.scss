@@ -1,40 +1,39 @@
 .info-container{
-    display: flex;
+  display: flex;
 justify-content: space-between;
-padding: 175px 115px 48px 150px;
+padding: 165px 115px 42px 135px;
 background:
-            url(../assets/icons/product-bg.svg) no-repeat 8.4% 55%,
-            url(../assets/icons/product-bg-2.svg) no-repeat 19.8% 31%,
-            url(../assets/icons/info-bg-1.svg) no-repeat 43.8% 28%,
-            url(../assets/icons/info-bg-1.svg) no-repeat 54.9% 64.6%,
-            url(../assets/icons/info-bg-1.svg) no-repeat 90.9% 37%,
-            url(../assets/icons/info-flower.svg) no-repeat 98.6% 92.2%;
 
+          url(../assets/Tryb_edycji_wzorka1.svg) no-repeat 43.8% 28%,
+          url(../assets/Tryb_edycji_wzorka1.svg) no-repeat 54.9% 64.6%,
+          url(../assets/Tryb_edycji_wzorka1.svg) no-repeat 90.9% 37%,
+          url(../assets/info/orange-flower.svg) no-repeat 98.6% 92.2%;
+background-size:  10%, 10%, 10%, 340px;
 }
 .info-text{
-
+  margin-top: 10px;
 display: flex;
 flex-direction: column;
 max-width: 1115px;
 text-align: center;
 }
 .info-text-first{
-    margin-left: 110px;
-    margin-right: 135px;
+  margin-left: 110px;
+  margin-right: 135px;
 border-radius: 25px;
 padding: 70px 43px 79px;
 @include message-text();
 background-color: #FCF2D7;
 }
 .info-text-second{
-    margin-left: 610px;
-    margin-top: 62px;
- background-color: #CEB0D7;
- @include message-text();
- border-radius: 17px;
- letter-spacing: 2px;
- white-space:normal;
- padding: 15px 14px 18px;
+  margin-left: 610px;
+  margin-top: 62px;
+background-color: #CEB0D7;
+@include message-text();
+border-radius: 10px;
+letter-spacing: 2px;
+white-space:normal;
+padding: 15px 14px 18px;
 }
 .info-text-third{
 background-color: #E1F2FD;
@@ -43,14 +42,138 @@ margin-top: 50px;
 border-radius: 25px;
 padding: 44px 40px 50px;
 margin-left: 10px;
-    margin-right: 365px;
+  margin-right: 365px;
 }
 .product-image{
-    justify-content: center;
-    width: 500px;
-    display: flex;
-  img{
-    margin-left: 83px;
-  margin-top: -46px;
-  }
+  justify-content: center;
+  max-width: 500px;
+  display: flex;
+  background:
+  url(../assets/info/info-prod-bg-2.svg) no-repeat 1% 39%,
+  url(../assets/info/info-prod-bg.svg) no-repeat 96.8% 1%;
+img{
+
+margin-top: -27px;
+object-fit: contain;
+}
+}
+
+@media (max-width:1580px){
+  .info-text-second {
+    margin-left: 150px;
+    width: fit-content;
+    align-self: end;
+    padding: 6px 12px;
+}
+.info-text-first{
+margin: 0 20px;
+}
+.info-text-third{
+  margin-right: 410px;
+}
+.info-container{
+flex-direction: column;
+align-items: center;
+background: url(../../assets/info/orange-flower-mob.svg) no-repeat 10% 32%,
+ url(../../assets/info/rect-blue-2.svg) no-repeat 80% 24%,
+ url(../../assets/info/rect-yellow.svg) no-repeat 18% 11.3%,
+ url(../../assets/info/yellow.svg) no-repeat 100% 10%,
+ url(../../assets/info/info-dots-bg.svg) no-repeat 100% 34%,
+ url(../assets/Tryb_edycji_wzorka1.svg) no-repeat 44.8% 87%,
+ url(../assets/Tryb_edycji_wzorka1.svg) no-repeat 54.9% 57.6%,
+ url(../assets/Tryb_edycji_wzorka1.svg) no-repeat 90.9% 75%;
+    background-size: 200px, 105px, 124px, 123px, 100px,15%, 15%, 15%;
+
+
+
+
+padding: 50px 50px;
+}
+.product-image{
+overflow: hidden;
+img{
+
+  width: 1000px;
+}
+}
+
+
+}
+
+@media (max-width:1200px){
+
+.product-image{
+
+img{
+width: 740px;
+
+}
+}
+.info-container{
+padding: 0 5px;
+background: url(../../assets/info/orange-flower-mob.svg) no-repeat 3% 32%,
+ url(../../assets/info/rect-blue-2.svg) no-repeat 80% 24%,
+ url(../../assets/info/rect-yellow.svg) no-repeat 18% 11.3%,
+ url(../../assets/info/rect-blue.svg) no-repeat 107% 10%,
+ url(../../assets/info/info-dots-bg.svg) no-repeat 107% 30%,;
+    background-size: 200px, 105px, 124px, 123px, 100px;
+}
+
+.info-text-third{
+  margin-right: 110px;
+}
+}
+
+
+@media (max-width:660px){
+.info-container{
+  padding: 0 5px;
+  background: url(../../assets/info/orange-flower-mob.svg) no-repeat -8% 31%,
+  url(../../assets/info/rect-blue-2.svg) no-repeat 80% 24%,
+  url(../../assets/info/rect-yellow.svg) no-repeat 18% 11.3%,
+  url(../../assets/info/yellow.svg) no-repeat 107% 10%,
+  url(../../assets/info/info-dots-bg.svg) no-repeat 107% 29%,;
+     background-size: 110px, 45px, 64px, 63px, 80px;
+    }
+.product-image{
+  padding-top: 85px;
+max-width: 100%;
+  background-size: 109px, 125px;
+  background-position: 31% 62%, 64% 36%;
+ img {
+
+  width: 390px;
+}
+
+}
+.info-text{
+width: 100%;
+padding: 0;
+margin-top: 35px;
+}
+.info-text-first{
+padding: 15px 14px 12px 14px;
+margin: 15px 0 68px 29px;
+border-radius: 10px;
+}
+.info-text-second{
+margin: 10px 69px 4px 3px;
+padding: 6px 12px;
+border-radius: 10px;
+white-space: nowrap;
+letter-spacing: 0px;
+}
+.info-text-third{
+margin: 47px 12px 9px 24px;
+padding: 12px 7px 12px 9px;
+border-radius: 10px;
+}
+}
+
+@media (max-width:460px){
+.info-container{
+  padding: 0 5px;
+
+    }
+
 }

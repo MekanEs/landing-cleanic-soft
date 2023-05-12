@@ -4,7 +4,7 @@
 margin-top: -75px;
 }
 .about-container{
-    background: url(../assets/icons/warning-sticker.png) no-repeat;
+    background: url(../assets/warning-icon.svg) no-repeat;
     background-position: right bottom;
     background-position-x: 97%;
     display: flex;
@@ -48,17 +48,24 @@ line-height: 126px;
 @media (max-width:1600px){
 .about-container{
     padding: 0px 160px 152px 160px;
-    background-size: 40%;
+    background-size: 30%;
 }
 
 }
-
-@media (max-width:1000px){
+@media (max-width:1180px){
     .about-container{
-        padding: 0px 70px 152px 70px;
+     padding: 0 90px 152px 90px
+    }
+
+    }
+
+
+@media (max-width:1080px){
+    .about-container{
+        padding: 100px 70px 66px 70px;
     }
     .about-outer {
-
+margin-bottom: 13px;
         margin-top: 63px;
     }
     .pre-heading-text{
@@ -67,17 +74,17 @@ line-height: 126px;
     }
 
     .about-header{
-        font-size: 27px;
+        font-size: 34px;
         letter-spacing: 0;
         margin-bottom: 0;
 
     }
     .about-skewed-text{
-        font-size: 39px;
+        font-size: 55px;
         margin-left: -3px;
     }
     .about-question{
-        font-size: 29px;
+        font-size: 35px;
     }
     .about-text{
         margin-top: 7px ;
@@ -87,7 +94,7 @@ line-height: 126px;
     }
     @media (max-width:500px){
         .about-container{
-            padding: 0px 16px 152px 16px;
+            padding: 0px 16px 66px 16px;
 
             background-position-x: 122%;
     background-position-y: 58%;
@@ -104,10 +111,30 @@ line-height: 126px;
 
 
 
-@media (max-width:360px){
+@media (max-width:660px){
 .about-container{
-    background: url(../assets/icons/Group\ 5.png) no-repeat 122% 58%;
+    background: url(../assets/warning-icon-mob.svg) no-repeat 110% 70%;
 }
 
+.about-header{
+    font-size: 27px;
+    letter-spacing: 0;
+    margin-bottom: 0;
+
+}
+.about-skewed-text{
+    font-size: 39px;
+    margin-left: -3px;
+}
+.about-question{
+    font-size: 29px;
+}
 
     }
+    @media (max-width:400px){
+        .about-container{
+            background-position: 122% 70%;
+        }
+
+
+            }

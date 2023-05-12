@@ -6,7 +6,10 @@ $mobile-width:360px;
     padding: 0;
     box-sizing: border-box;
 }
-
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
 body{
 
     margin: 0 auto;
