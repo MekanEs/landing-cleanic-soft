@@ -662,7 +662,7 @@ body {
   .info-container {
     flex-direction: column;
     align-items: center;
-    background: url(../../assets/info/orange-flower-mob.svg) no-repeat 10% 32%, url(../../assets/info/rect-blue-2.svg) no-repeat 80% 24%, url(../../assets/info/rect-yellow.svg) no-repeat 18% 11.3%, url(../../assets/info/yellow.svg) no-repeat 100% 10%, url(../../assets/info/info-dots-bg.svg) no-repeat 100% 34%, url(../assets/Tryb_edycji_wzorka1.svg) no-repeat 44.8% 87%, url(../assets/Tryb_edycji_wzorka1.svg) no-repeat 54.9% 57.6%, url(../assets/Tryb_edycji_wzorka1.svg) no-repeat 90.9% 75%;
+    background: url(../assets/info/orange-flower-mob.svg) no-repeat 10% 32%, url(../assets/info/rect-blue-2.svg) no-repeat 80% 24%, url(../assets/info/rect-yellow.svg) no-repeat 18% 11.3%, url(../assets/info/yellow.svg) no-repeat 100% 10%, url(../assets/info/info-dots-bg.svg) no-repeat 100% 34%, url(../assets/Tryb_edycji_wzorka1.svg) no-repeat 44.8% 87%, url(../assets/Tryb_edycji_wzorka1.svg) no-repeat 54.9% 57.6%, url(../assets/Tryb_edycji_wzorka1.svg) no-repeat 90.9% 75%;
     background-size: 200px, 105px, 124px, 123px, 100px, 15%, 15%, 15%;
     padding: 50px 50px;
   }
@@ -679,7 +679,7 @@ body {
   }
   .info-container {
     padding: 0 5px;
-    background: url(../../assets/info/orange-flower-mob.svg) no-repeat 3% 32%, url(../../assets/info/rect-blue-2.svg) no-repeat 80% 24%, url(../../assets/info/rect-yellow.svg) no-repeat 18% 11.3%, url(../../assets/info/rect-blue.svg) no-repeat 107% 10%, url(../../assets/info/info-dots-bg.svg) no-repeat 107% 30%;
+    background: url(../assets/info/orange-flower-mob.svg) no-repeat 3% 32%, url(../assets/info/rect-blue-2.svg) no-repeat 80% 24%, url(../assets/info/rect-yellow.svg) no-repeat 18% 11.3%, url(../assets/info/rect-blue.svg) no-repeat 107% 10%, url(../assets/info/info-dots-bg.svg) no-repeat 107% 30%;
     background-size: 200px, 105px, 124px, 123px, 100px;
   }
   .info-text-third {
@@ -689,7 +689,7 @@ body {
 @media (max-width: 660px) {
   .info-container {
     padding: 0 5px;
-    background: url(../../assets/info/orange-flower-mob.svg) no-repeat -8% 31%, url(../../assets/info/rect-blue-2.svg) no-repeat 80% 24%, url(../../assets/info/rect-yellow.svg) no-repeat 18% 11.3%, url(../../assets/info/yellow.svg) no-repeat 107% 10%, url(../../assets/info/info-dots-bg.svg) no-repeat 107% 29%;
+    background: url(../assets/info/orange-flower-mob.svg) no-repeat -8% 31%, url(../assets/info/rect-blue-2.svg) no-repeat 80% 24%, url(../assets/info/rect-yellow.svg) no-repeat 18% 11.3%, url(../assets/info/yellow.svg) no-repeat 107% 10%, url(../assets/info/info-dots-bg.svg) no-repeat 107% 29%;
     background-size: 110px, 45px, 64px, 63px, 80px;
   }
   .product-image {
