@@ -23,7 +23,7 @@ body {
 }
 
 .welcome-section {
-  background: url(../../assets/header/header-background.png) no-repeat center center;
+  background: url(../assets/header/header-background.png) no-repeat center center;
   background-size: cover;
 }
 
@@ -55,7 +55,7 @@ body {
   padding-left: 32px;
   letter-spacing: 7px;
   max-height: 500px;
-  background: url(../../assets/header/&.svg) no-repeat center;
+  background: url(../assets/header/&.svg) no-repeat center;
   background-position-x: 388px;
   background-position-y: inherit;
   row-gap: 228px;
@@ -409,7 +409,7 @@ body {
   }
 }
 .badz {
-  background: url(../../assets/badz/flower.svg) no-repeat -4% 3%, url(../../assets/badz/flower.svg) no-repeat 104% 138%;
+  background: url(../assets/badz/flower.svg) no-repeat -4% 3%, url(../assets/badz/flower.svg) no-repeat 104% 138%;
   background-color: #F0805F;
 }
 
@@ -462,7 +462,7 @@ body {
     background-image: none;
   }
   .flowers {
-    background: url(../../assets/badz/flower.svg) no-repeat, url(../../assets/badz/flower.svg) no-repeat;
+    background: url(../assets/badz/flower.svg) no-repeat, url(../assets/badz/flower.svg) no-repeat;
     background-position: left top, right 110%;
     background-size: 15%, 15%;
   }

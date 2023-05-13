@@ -1,7 +1,7 @@
 .badz {
 
-    background: url(../../assets/badz/flower.svg) no-repeat -4% 3%,
-        url(../../assets/badz/flower.svg) no-repeat 104% 138%;
+    background: url(../assets/badz/flower.svg) no-repeat -4% 3%,
+        url(../assets/badz/flower.svg) no-repeat 104% 138%;
     background-color: #F0805F;
 }
 
@@ -55,8 +55,8 @@
     }
 
     .flowers {
-        background: url(../../assets/badz/flower.svg) no-repeat,
-            url(../../assets/badz/flower.svg) no-repeat;
+        background: url(../assets/badz/flower.svg) no-repeat,
+            url(../assets/badz/flower.svg) no-repeat;
         background-position: left top, right 110%;
         background-size: 15%, 15%;
     }
