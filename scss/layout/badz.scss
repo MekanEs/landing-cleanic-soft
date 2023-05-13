@@ -1,5 +1,12 @@
-.badz-container {
+.badz {
+
+    background: url(../../assets/badz/flower.svg) no-repeat -4% 3%,
+        url(../../assets/badz/flower.svg) no-repeat 104% 138%;
     background-color: #F0805F;
+}
+
+.badz-container {
+
     justify-content: center;
     align-items: center;
     display: flex;
@@ -19,8 +26,7 @@
     justify-content: center;
     align-items: center;
     display: flex;
-    background: url(../../assets/badz/flower.svg) no-repeat -4% top,
-        url(../../assets/badz/flower.svg) no-repeat 104% 140%;
+
 
     background-size: 400px;
 
@@ -42,7 +48,15 @@
 }
 
 @media (max-width:1750px) {
+    .badz {
+
+        background-image: none;
+
+    }
+
     .flowers {
+        background: url(../../assets/badz/flower.svg) no-repeat,
+            url(../../assets/badz/flower.svg) no-repeat;
         background-position: left top, right 110%;
         background-size: 15%, 15%;
     }
