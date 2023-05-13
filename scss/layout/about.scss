@@ -1,9 +1,10 @@
-.about-outer{
+.about-outer {
 
     margin-bottom: 88px;
-margin-top: -75px;
+    margin-top: -75px;
 }
-.about-container{
+
+.about-container {
     background: url(../assets/warning-icon.svg) no-repeat;
     background-position: right bottom;
     background-position-x: 97%;
@@ -11,130 +12,151 @@ margin-top: -75px;
     flex-direction: column;
     padding: 0px 295px 152px 295px;
 }
-.pre-heading-text{
+
+.pre-heading-text {
     text-align: right;
     @include message-text();
     margin-bottom: 130px;
     padding-left: 34%;
 }
-.about-header{
+
+.about-header {
     @include header(67px);
-    color: #CB5699;;
-letter-spacing: 0;
- width: fit-content;
- letter-spacing: 0;
-margin: 0 auto;
- margin-bottom: 148px;
+    color: #CB5699;
+    ;
+    letter-spacing: 0;
+    width: fit-content;
+    letter-spacing: 0;
+    margin: 0 auto;
+    margin-bottom: 148px;
 }
-.about-skewed-text{
+
+.about-skewed-text {
     font-family: $earwing;
-font-style: normal;
-font-weight: 400;
-font-size: 105.369px;
-line-height: 126px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 105.369px;
+    line-height: 126px;
 }
-.about-question{
+
+.about-question {
     @include message-text();
     font-size: 88px;
-    color: #CB5699;;
+    color: #CB5699;
+    ;
 }
-.about-text{
+
+.about-text {
     text-align: left;
     @include message-text();
     width: 65%;
     padding-left: 5px;
     white-space: break-spaces;
 }
-@media (max-width:1600px){
-.about-container{
-    padding: 0px 160px 152px 160px;
-    background-size: 30%;
-}
 
-}
-@media (max-width:1180px){
-    .about-container{
-     padding: 0 90px 152px 90px
+@media (max-width:1600px) {
+    .about-container {
+        padding: 0px 160px 152px 160px;
+        background-size: 30%;
     }
 
+}
+
+@media (max-width:1180px) {
+    .about-container {
+        padding: 0 90px 152px 90px
     }
 
+}
 
-@media (max-width:1080px){
-    .about-container{
+
+@media (max-width:1080px) {
+    .about-container {
         padding: 100px 70px 66px 70px;
     }
+
     .about-outer {
-margin-bottom: 13px;
+        margin-bottom: 13px;
         margin-top: 63px;
     }
-    .pre-heading-text{
+
+    .pre-heading-text {
         padding-left: 18%;
         margin-bottom: 0;
     }
 
-    .about-header{
+    .about-header {
         font-size: 34px;
         letter-spacing: 0;
         margin-bottom: 0;
 
     }
-    .about-skewed-text{
+
+    .about-skewed-text {
         font-size: 55px;
         margin-left: -3px;
     }
-    .about-question{
+
+    .about-question {
         font-size: 35px;
     }
-    .about-text{
-        margin-top: 7px ;
-          padding-left: 0;
-          white-space: normal;
+
+    .about-text {
+        margin-top: 7px;
+        padding-left: 0;
+        white-space: normal;
     }
+}
+
+@media (max-width:500px) {
+    .about-container {
+        padding: 0px 16px 66px 16px;
+
+        background-position-x: 122%;
+        background-position-y: 58%;
     }
-    @media (max-width:500px){
-        .about-container{
-            padding: 0px 16px 66px 16px;
 
-            background-position-x: 122%;
-    background-position-y: 58%;
-        }
-        .about-outer {
+    .about-outer {
 
-            margin-top: 66px;
-        }
-        .about-text{
-              width: 230px;}
-        }
+        margin-top: 66px;
+    }
 
-
-
-
-
-@media (max-width:660px){
-.about-container{
-    background: url(../assets/warning-icon-mob.svg) no-repeat 110% 70%;
+    .about-text {
+        width: 230px;
+    }
 }
 
-.about-header{
-    font-size: 27px;
-    letter-spacing: 0;
-    margin-bottom: 0;
 
-}
-.about-skewed-text{
-    font-size: 39px;
-    margin-left: -3px;
-}
-.about-question{
-    font-size: 29px;
-}
+
+
+
+@media (max-width:660px) {
+    .about-container {
+        background: url(../assets/warning-icon-mob.svg) no-repeat 110% 70%;
+    }
+
+    .about-header {
+        font-size: 27px;
+        letter-spacing: 0;
+        margin-bottom: 0;
 
     }
-    @media (max-width:400px){
-        .about-container{
-            background-position: 122% 70%;
-        }
+
+    .about-skewed-text {
+        font-size: 39px;
+        margin-left: -3px;
+    }
+
+    .about-question {
+        font-size: 29px;
+    }
+
+}
+
+@media (max-width:400px) {
+    .about-container {
+        background-position: 122% 70%;
+    }
 
 
-            }
+}

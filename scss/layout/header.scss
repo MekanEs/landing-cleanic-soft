@@ -1,65 +1,72 @@
-.welcome-section{
+.welcome-section {
     background: url(../../assets/header/header-background.png) no-repeat center center;
     background-size: cover;
 }
-.header-container{
+
+.header-container {
 
     width: 100%;
-padding-top: 248px;
-padding-bottom: 8px;
+    padding-top: 248px;
+    padding-bottom: 8px;
 
-display: flex;
-justify-content: space-between;
+    display: flex;
+    justify-content: space-between;
 
 
 }
-.ochrony-mob{
+
+.ochrony-mob {
     display: none;
 }
-.hashtag-mob{
+
+.hashtag-mob {
     display: none;
 }
-.headers{
+
+.headers {
     width: 100%;
 }
-.motto{
-display: flex;
-flex-direction: column;
-justify-content: center;
-width: fit-content;
-padding-left: 32px;
-letter-spacing: 7px;
-max-height: 500px;
-background: url(../../assets/header/&.svg) no-repeat center;
+
+.motto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: fit-content;
+    padding-left: 32px;
+    letter-spacing: 7px;
+    max-height: 500px;
+    background: url(../../assets/header/&.svg) no-repeat center;
     background-position-x: 388px;
     background-position-y: inherit;
-row-gap: 228px;
+    row-gap: 228px;
 
 
 }
-.ochrony{
 
-padding-left: 152px;
+.ochrony {
 
-span{
-    margin-right: 25px
+    padding-left: 152px;
+
+    span {
+        margin-right: 25px
+    }
+
 }
 
-}
-
-.hashtag{
-width: 820px;
+.hashtag {
+    width: 820px;
 
 }
 
 .circular {
- width: 100%;
- display: flex;
- justify-content: center;
- padding-top: 84px;
- padding-bottom: 55px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 84px;
+    padding-bottom: 55px;
 }
-.link-container{
+
+.link-container {
     display: flex;
     align-items: flex-end;
     transform: rotate(180deg);
@@ -67,7 +74,8 @@ width: 820px;
     margin-top: 129px;
     margin-right: 23px;
 }
-.instagram-link{
+
+.instagram-link {
     font-family: "DM Sans", sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -76,6 +84,7 @@ width: 820px;
     color: #FFFFFF;
     writing-mode: vertical-rl;
 }
+
 .markup-bg {
     display: flex;
     max-width: 1920px;
@@ -84,165 +93,190 @@ width: 820px;
     margin: -340px auto 0;
     padding-right: 192px;
 }
-.markup{
+
+.markup {
     margin-left: -131px;
 }
-.text-label{
+
+.text-label {
     margin-top: -28px;
 }
 
 
 @media (max-width:1780px) {
-    .motto{
-    flex-direction: column-reverse;
+    .motto {
+        flex-direction: column-reverse;
     }
-    .ochrony{
+
+    .ochrony {
         width: 65%;
 
     }
-    .hashtag{
-    width: 55%;
+
+    .hashtag {
+        width: 55%;
     }
-    .motto{
+
+    .motto {
 
         background-size: 19%;
         row-gap: 100px;
 
     }
-    .circular{
+
+    .circular {
 
 
         padding-top: 67px;
         padding-bottom: 48px;
-        img{
+
+        img {
             width: 330px;
         }
     }
+
     .markup-bg {
         display: flex;
 
         row-gap: 162px;
     }
-    .markup{
-width: 600px;
+
+    .markup {
+        width: 600px;
         margin-top: -3px;
         margin-left: -307px;
 
-       }
-       .text-label{
+    }
+
+    .text-label {
         width: 200px;
         margin-top: 70px;
-       }
-       .link-container{
+    }
+
+    .link-container {
         margin-top: 0;
-       }
+    }
 }
 
 
 
 
-@media (max-width:1080px){
-    .link-container{
+@media (max-width:1080px) {
+    .link-container {
         display: none;
     }
-    .header-container{
-       // background: url() no-repeat 46% 100%;
-       // background-size: 1117px;
+
+    .header-container {
+        // background: url() no-repeat 46% 100%;
+        // background-size: 1117px;
         padding-top: 83px;
         padding-bottom: 30px;
     }
 
-    .motto{
+    .motto {
         padding-left: 20px;
         row-gap: 95px;
-     background-position-x: 30%;
+        background-position-x: 30%;
         background-size: 14%;
 
     }
-    .ochrony{
+
+    .ochrony {
         width: 45%;
 
     }
-    .hashtag{
-    width: 35%;
+
+    .hashtag {
+        width: 35%;
     }
 
-    .circular{
+    .circular {
 
 
         padding-top: 65px;
         padding-bottom: 0;
-        img{
+
+        img {
             width: 200px;
             margin-right: 30px;
         }
     }
+
     .markup-bg {
         display: flex;
-flex-direction: column;
+        flex-direction: column;
         row-gap: 162px;
         margin-top: -380px;
         padding-right: 100px;
     }
-    .markup{
+
+    .markup {
         width: 154px;
         margin-top: 25px;
         margin-left: -109%;
-       }
-       .text-label{
+    }
+
+    .text-label {
         width: 105px;
         margin-top: -14px;
         margin-left: 84%;
-       }
-
     }
-    @media (max-width:660px){
-        .motto {
-            padding-left: 20px;
-            /* background-size: 10%; */
-            row-gap: 82px;
-            background-position-x: 23%;
-            background-position-y: 61%;
-            background-size: 126px;
-        }
-        .ochrony-mob {
-            display: block;
-            width: 152px;
-            margin-left: 53px;
-        }
-        .hashtag-mob {
-            display: block;
-            width: 185px;
-        }
-        .ochrony{
-            display: none;
-        }
-        .hashtag{
-            display: none;
-        }
-        .welcome-section{
-            background-position: 49% center;
-        }
-        .circular{
-margin-top: 25px;
 
-        img{
+}
+
+@media (max-width:660px) {
+    .motto {
+        padding-left: 20px;
+        /* background-size: 10%; */
+        row-gap: 82px;
+        background-position-x: 23%;
+        background-position-y: 61%;
+        background-size: 126px;
+    }
+
+    .ochrony-mob {
+        display: block;
+        width: 152px;
+        margin-left: 53px;
+    }
+
+    .hashtag-mob {
+        display: block;
+        width: 185px;
+    }
+
+    .ochrony {
+        display: none;
+    }
+
+    .hashtag {
+        display: none;
+    }
+
+    .welcome-section {
+        background-position: 49% center;
+    }
+
+    .circular {
+        margin-top: 25px;
+
+        img {
             width: 230px;
 
             margin-left: 20px;
         }
-        }
-        .header-container {
-
-            padding-bottom: 83px;
-        }
-        .text-label {
-
-            margin-left: 335px;
-
-        }
     }
 
-    @media (max-width:360px){
+    .header-container {
+
+        padding-bottom: 83px;
+    }
+
+    .text-label {
+
+        margin-left: 335px;
 
     }
+}
+
+@media (max-width:360px) {}

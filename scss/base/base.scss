@@ -1,26 +1,29 @@
-$desktop-width:1920px;
-$mobile-width:360px;
+$desktop-width: 1920px;
+$mobile-width: 360px;
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-a{
+
+a {
     text-decoration: none;
     cursor: pointer;
 }
-body{
+
+body {
 
     margin: 0 auto;
 }
 
-@mixin wrapper(){
+@mixin wrapper() {
     max-width: $desktop-width;
 
 
     margin: 0 auto;
 }
-.wrapper{
+
+.wrapper {
     @include wrapper()
 }

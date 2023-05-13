@@ -1,222 +1,248 @@
-.products-container{
+.products-container {
     display: flex;
     flex-direction: column;
     align-items: center;
 
-    h2{
+    h2 {
         font-family: 'Montserrat';
-font-style: normal;
-font-weight: 700;
-font-size: 116.351px;
-line-height: 73px;
-opacity: 0.3;
-text-transform: uppercase;
-color: #E6A0C8;
-transition: opacity .3s ease;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 116.351px;
+        line-height: 73px;
+        opacity: 0.3;
+        text-transform: uppercase;
+        color: #E6A0C8;
+        transition: opacity .3s ease;
 
     }
 
 }
-.product-cards-container{
+
+.product-cards-container {
     display: flex;
     justify-content: space-between;
     column-gap: 32px;
     z-index: 1;
 
 }
-.card-1{
+
+.card-1 {
     background: url(../assets/products/product-card-bg-1.png) no-repeat center;
 }
-.card-2{
+
+.card-2 {
     background: url(../assets/products/product-card-bg-2.png) no-repeat center;
 }
-.card-3{
+
+.card-3 {
     background: url(../assets/products/product-card-bg-3.png) no-repeat center;
 }
-.card-4{
+
+.card-4 {
     background: url(../assets/products/product-card-bg-4.png) no-repeat center;
 }
-.card{
-width: 315px;
 
-display: flex;
-align-items: center;
-justify-content: center;
-max-height: 433px;
-padding: 15px 15px;
+.card {
+    width: 315px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-height: 433px;
+    padding: 15px 15px;
 
 }
 
-.card-inner{
-background-color: #FFFFFF;
+.card-inner {
+    background-color: #FFFFFF;
 
-width: 100%;
-opacity: 0;
-overflow: hidden;
-display: flex;
-flex-direction: column;
-row-gap: 14px;
-transition: opacity .3s ease;
+    width: 100%;
+    opacity: 0;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    row-gap: 14px;
+    transition: opacity .3s ease;
 }
-.card-img-container{
+
+.card-img-container {
     margin-top: 35px;
-max-width: 280px;
+    max-width: 280px;
 
-display: flex;
-justify-content: center;
-max-height: 280px;
-img{
-object-fit: cover;
-margin-right: 10px;
-}
-}
-.card:hover{
+    display: flex;
+    justify-content: center;
+    max-height: 280px;
 
-    .card-inner{
+    img {
+        object-fit: cover;
+        margin-right: 10px;
+    }
+}
+
+.card:hover {
+
+    .card-inner {
         opacity: 1;
         width: 90%;
     }
 }
-.card-text{
 
-font-family: 'DM Sans';
-font-style: normal;
-font-weight: 500;
+.card-text {
 
-line-height: 26px;
-text-align: center;
-color: #232323;
-padding: 10px 10px 10px 10px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+
+    line-height: 26px;
+    text-align: center;
+    color: #232323;
+    padding: 10px 10px 10px 10px;
 }
-.card-name{
+
+.card-name {
     font-size: 20px;
 }
-.see-more{
+
+.see-more {
 
     font-size: 14px;
 }
-.product-cont-outer{
 
-overflow-y: visible;
-padding-top: 29px;
+.product-cont-outer {
+
+    overflow-y: visible;
+    padding-top: 29px;
     margin-top: -23px;
-width: 70%;
+    width: 70%;
 
 }
 
-@media (max-width:1680px){
-    .products-container{
-margin-top: 20px;
+@media (max-width:1680px) {
+    .products-container {
+        margin-top: 20px;
     }
 }
-@media (max-width:1380px){
+
+@media (max-width:1380px) {
 
     .product-cards-container {
         overflow-x: scroll;
         overflow-y: visible;
         width: 94%;
-        scroll-behavior: smooth ;
+        scroll-behavior: smooth;
 
     }
-    .product-cards-container:hover {
 
-    }
+    .product-cards-container:hover {}
+
     .product-cards-container::-webkit-scrollbar {
         height: 23px;
-      }
+    }
 
 
-      /* Track */
-      .product-cards-container::-webkit-scrollbar-track {
+    /* Track */
+    .product-cards-container::-webkit-scrollbar-track {
         background: #E6A0C9;
         border-radius: 25px;
-      }
+    }
 
-      /* Handle */
-      .product-cards-container::-webkit-scrollbar-thumb {
+    /* Handle */
+    .product-cards-container::-webkit-scrollbar-thumb {
         background: #FFFFFF;
         border: 6px solid #E6A0C9;
         border-radius: 20px;
-      }
+    }
 
-      /* Handle on hover */
-      .product-cards-container::-webkit-scrollbar-thumb:hover {
+    /* Handle on hover */
+    .product-cards-container::-webkit-scrollbar-thumb:hover {
         background: #eeebeb;
-      }
+    }
 }
 
 
 
 
-@media (max-width:1000px){
+@media (max-width:1000px) {
     .products-container h2 {
         margin-top: 45px;
         font-size: 60px;
 
-            }
-            .product-cont-outer{
-                width: 90%;
-                }
+    }
+
+    .product-cont-outer {
+        width: 90%;
+    }
 }
-@media (max-width:660px){
-    .products-container{
+
+@media (max-width:660px) {
+    .products-container {
         margin-top: 0;
-            }
-    .product-cont-outer{
+    }
+
+    .product-cont-outer {
         width: 100%;
+    }
+
+    .card-3 {
+        .card-img-container img {
+            object-fit: cover;
+            width: 300px;
         }
-.card-3{
-    .card-img-container img {
-        object-fit: cover;
-        width: 300px;
     }
-}
-.card-4{
-    .card-img-container img {
-        object-fit: cover;
-        width: 200px;
-        margin-left: 15px;
+
+    .card-4 {
+        .card-img-container img {
+            object-fit: cover;
+            width: 200px;
+            margin-left: 15px;
+        }
     }
-}
+
     .products-container h2 {
-margin-top: 45px;
-font-size: 40px;
+        margin-top: 45px;
+        font-size: 40px;
 
     }
+
     .product-cards-container {
-column-gap: 15px;
-padding: 0 5px;
-margin-top: -136px;
+        column-gap: 15px;
+        padding: 0 5px;
+        margin-top: -136px;
     }
 
-    .card{
+    .card {
         margin-top: 110px;
         width: 143px;
         background-size: contain;
         padding: 10px 0 10px 0;
 
     }
-    .card-img-container{
+
+    .card-img-container {
         max-height: 145px;
         margin-top: 9px;
-        img{
+
+        img {
             object-fit: contain;
         }
     }
 
-    .card-text{
-margin-top: -14px;
-line-height: 10px;
+    .card-text {
+        margin-top: -14px;
+        line-height: 10px;
         padding: 3px;
-        }
-        .card-name{
-            font-size: 12px;
-        }
-        .see-more{
+    }
 
-            font-size: 9px;
-            img{
-                width: 20%;
-            }
+    .card-name {
+        font-size: 12px;
+    }
+
+    .see-more {
+
+        font-size: 9px;
+
+        img {
+            width: 20%;
         }
+    }
 }

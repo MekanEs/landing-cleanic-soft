@@ -1,0 +1,11 @@
+{
+  "prettier.bracketSameLine": true,
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "[css][scss][less]": {
+    "editor.defaultFormatter": "vscode.css-language-features"
+  },
+  "editor.formatOnType": true,
+  "scss.format.spaceAroundSelectorSeparator": true
+}
