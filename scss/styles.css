@@ -1285,7 +1285,7 @@ body {
 }
 .footer {
   background: url(../assets/footer/background-images/footer-main-blue.svg) no-repeat center center;
-  background-size: 300%;
+  background-size: 5680px;
 }
 
 @media (max-width: 1920px) {
